@@ -1,0 +1,58 @@
+name: coatch
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  bottom_navy_bar: ^6.1.0
+  cloud_firestore: ^5.6.7
+  file_picker: ^10.1.9
+  firebase_app_check: ^0.3.2+5
+  firebase_auth: ^5.5.3
+  firebase_core: ^3.13.0
+  firebase_storage: ^12.4.5
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  google_fonts: ^6.2.1
+  google_sign_in: ^6.3.0
+  image_picker: ^1.1.2
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  model_viewer_plus: ^1.7.0
+  flutter_neumorphic: ^3.2.0
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: FFS
+      fonts:
+        - asset: assets/fonts/BarberChop.otf
+
+  assets:
+    # images
+    - assets/images/google-icon.png
+    - assets/images/default.png
+    - assets/images/logo-Photoroom.png
+
+    - assets/images/logo-Photoroom.jpg
+      # models
+    - assets/models/1stomach.glb
+    - assets/models/2stomachBic.glb
+    - assets/models/3stomachRot.glb
+    - assets/models/4push-up.glb
+    - assets/models/5Squats.glb
+    - assets/models/6circular-run.glb
+    - assets/models/7Feet.glb
+    - assets/models/8Pike-Walk.glb
+    - assets/models/9Jumping-Jacks.glb
+    - assets/models/10Jump-Push-Upglb.glb
+    - assets/models/11Burpees1.glb
+    - assets/models/12BOX-JUMP.glb
